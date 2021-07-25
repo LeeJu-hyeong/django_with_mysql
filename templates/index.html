@@ -1,0 +1,9 @@
+I-Shadow<br><br>
+<form action="youtube/" method="POST">
+    {% csrf_token %}
+    <input type="submit" value="Youtube URL">
+</form>
+<form action="local/" method="POST"> 
+    {% csrf_token %}
+    <input type="submit" value="Local File"><br>
+</form>
